@@ -1,8 +1,26 @@
 aid: hakeem-holding-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hakeem-holding-ltd.png
 name: HAKEEM HOLDING LTD
-description: HAKEEM HOLDING LTD is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hakeem X Technologies (HAKEEM HOLDING LTD) is a UAE-based healthcare technology company delivering
+  AI-powered clinical decision support and medical education to hospitals, universities, and healthcare
+  professionals across the UAE and KSA. Its flagship HakeemDx assistant turns medical research into
+  instant, evidence-based answers at the point of care for physicians and pharmacists, alongside licensed
+  clinical reference suites (Micromedex, EBSCO DynaMed, Isabel, GIDEON), medication-adherence and virtual
+  pharmacy tooling, and medical/nursing education platforms (Lecturio, Healer case simulations, Simtics).
+  Surfaced as a 500 Global portfolio company and profiled in the API Evangelist network; no public
+  developer API, SDK, or portal is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/hakeem-holding-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- HealthTech
+- Clinical Decision Support
+- Medical Education
+- Artificial Intelligence
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hakeem-holding-ltd-domain-security.yml
 - type: Website
   url: https://hakeem.ae
+- type: About
+  url: https://hakeem.ae/about-us/
+- type: PrivacyPolicy
+  url: https://hakeem.ae/privacy-policy/
+- type: TermsOfService
+  url: https://hakeem.ae/terms-and-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hakeem-x/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
