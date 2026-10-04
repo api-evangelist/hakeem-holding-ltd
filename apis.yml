@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hakeem-holding-ltd.png
-name: HAKEEM HOLDING LTD
+name: HAKEEM
 description: >-
   Hakeem X Technologies (HAKEEM HOLDING LTD) is a UAE-based healthcare technology company delivering
   AI-powered clinical decision support and medical education to hospitals, universities, and healthcare
@@ -82,3 +82,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: HAKEEM HOLDING LTD
